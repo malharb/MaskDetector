@@ -127,9 +127,9 @@ Confusion Matrix:
 Classification Report:
 
       
-				    precision    recall    f1-score      support
-     0   			 0.98        0.99         0.99         509 
-     1   			 0.99 		 0.98 	      0.99 		   483
+		      precision    recall    f1-score      support
+     0   		0.98        0.99         0.99         509 
+     1   		0.99        0.98 	 0.99 	      483
      
       macro av  	 0.99        0.99         0.99         992 
       weighted av	 0.99        0.99         0.99         992
@@ -155,12 +155,12 @@ Confusion Matrix:
 
 Classification Report:
 
-				 precision 		recall 		f1-score 	support 
-    0 			  0.99 			 0.99 		  0.99 		  402 
-    1 			  0.98 			 0.99 		  0.99        398 
+		     precision 		recall 		f1-score 	support 
+    0 			0.99 	          0.99 		  0.99 		  402 
+    1 			0.98 		  0.99            0.99            398 
     
-    macro av      0.99 		 	 0.99 		  0.99 		  800 
-    weighted av   0.99 			 0.99 		  0.99 		  800
+    macro av      	0.99 		  0.99            0.99 		  800 
+    weighted av         0.99 	          0.99 		  0.99 		  800
     
     accuracy 	  0.99 800 
 
