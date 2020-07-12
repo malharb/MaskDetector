@@ -1,4 +1,5 @@
-#v1.0
+#v1.1
+#USES LIVE FOOTAGE FROM PHONE
 
 #LIBRARIES
 import numpy as np
@@ -14,11 +15,14 @@ SIZE = 80
 CATEGORIES = ['No Mask','Mask']
 labels_dict = {0:'No Mask',1:'Mask'}
 colour_dict = {0:(255,0,0),1:(0,225,0)}
+ip = input('Please enter the IP address: ')
+url = 'http://' + ip
+
 
 
 #OPENCV SCRIPT
 face_cascade = cv2.CascadeClassifier(r'C:\Users\malha\Desktop\ML\Mask Detector\haarcascade_frontalface_default.xml')
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(url+'/video')
 
 while True:
     _,img = cap.read()
