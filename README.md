@@ -1,4 +1,7 @@
 # MaskDetector
+
+ARTICLE: https://medium.com/p/80fbc04827bb/edit
+
 A Python program that detects whether a person(s) is wearing a mask. 
 Detection algorithm built using a Convolutional Neural Network. *Tensorflow 2.0* framework used.
 
